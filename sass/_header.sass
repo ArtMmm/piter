@@ -1,0 +1,61 @@
+header
+	height: 800px
+	background-image: url(../image/main.jpg)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	position: relative
+	& .container
+		top: -66px
+		padding: 0 15px 
+	& .logo
+		background-color:	#005BC1
+		height: 80px
+		opacity: .6
+		&-img
+			width: 139px
+			height: 50px
+			opacity: 1
+			margin: 15px 40px 15px 40px
+	& .menu
+		display: flex
+		justify-content: center
+		padding-left: 0
+		&-link
+			list-style: none
+			margin-right: 30px
+			& a
+				color: #fff
+				font-size: 22px
+				text-decoration: none
+			&:last-child
+				margin-right: 0
+	&	.mask
+		width: 444px
+		height: 720px
+		top: 50px
+		background: rgba(0, 91, 193, 0.6)
+		position: absolute
+		z-index: 1
+	&	.first-screen
+		margin-left: 200px
+		margin-top: 219px
+		position: absolute
+		z-index: 2
+		&__title
+			font-size: 37px
+			color: #fff
+			width: 590px
+			margin-bottom: 50px
+		&__description
+			width: 400px
+			font-size: 16px
+			color:#fff
+			margin-bottom: 42px
+		&__button
+			font-size: 20px
+			text-transform: uppercase
+			background: none
+			color: #fff
+			padding: 18px	40px
+			border: 3px solid #fff
