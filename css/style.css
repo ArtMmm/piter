@@ -503,6 +503,72 @@ header .first-screen__button a {
   right: 0;
 }
 
+footer {
+  width: 100%;
+  height: 255px;
+  background: #005BC1;
+  margin-top: 120px;
+  padding: 20px 0px;
+}
+
+footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #fff;
+}
+
+footer .footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer-menu {
+  height: 120px;
+  border-bottom: 2px solid #fff;
+}
+
+footer .footer-menu__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  width: 50%;
+}
+
+footer .footer-menu__link {
+  width: 185px;
+  padding-top: 30px;
+}
+
+footer .footer-menu__link a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer-privacy {
+  margin-top: 30px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
