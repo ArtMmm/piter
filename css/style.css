@@ -66,15 +66,13 @@ header .container {
 }
 
 header .logo {
-  background-color: #005BC1;
+  background-color: #005bc194;
   height: 80px;
-  opacity: .6;
 }
 
 header .logo-img {
   width: 139px;
   height: 50px;
-  opacity: 1;
   margin: 15px 40px 15px 40px;
 }
 
@@ -95,7 +93,7 @@ header .menu-link {
 
 header .menu-link a {
   color: #fff;
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -107,7 +105,7 @@ header .mask {
   width: 444px;
   height: 720px;
   top: 50px;
-  background: rgba(0, 91, 193, 0.6);
+  background: #005bc194;
   position: absolute;
   z-index: 1;
 }
@@ -143,8 +141,9 @@ header .first-screen__button a {
   text-transform: uppercase;
   background: none;
   color: #fff;
-  padding: 18px	40px;
+  padding: 16px	35px;
   border: 3px solid #fff;
+  text-decoration: none;
 }
 
 .project {
@@ -390,7 +389,7 @@ header .first-screen__button a {
   margin: 0;
 }
 
-.heading {
+.heading-news {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,7 +398,7 @@ header .first-screen__button a {
           justify-content: space-between;
 }
 
-.heading-decor {
+.heading-news .heading-decor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,7 +407,7 @@ header .first-screen__button a {
           align-items: baseline;
 }
 
-.heading .all-news {
+.heading-news .all-news {
   width: 190px;
   height: 51px;
   background: #005BC1;
@@ -416,7 +415,7 @@ header .first-screen__button a {
   border: none;
 }
 
-.heading .all-news a {
+.heading-news .all-news a {
   color: #fff;
   font-size: 16px;
   text-align: center;
