@@ -1,0 +1,58 @@
+.catalog
+  margin-top: 162px
+  &-block
+    margin-top: 82px
+    display: flex
+    flex-direction: column
+    & .block-title
+      display: flex
+      justify-content: center
+    &-item
+      display: flex
+      flex-wrap: wrap
+  &-robe, &-compulite
+    margin: 0px 25px 0px 0px
+    & a
+      font-size: 20px
+      text-decoration: none
+      text-transform: uppercase  
+.block-item
+  display: flex
+  flex-wrap: wrap
+  margin-top: 50px
+  .item
+    display: flex
+    flex-wrap: wrap
+    &-robe, &-compulite
+      width: 350px
+      height: 300px
+      border: 2px solid#005BC1
+      margin-right: 30px
+      position: relative
+      & img
+        width: 350px
+        height: 300px
+      &__descr
+        width: 265px
+        height: 86px
+        display: flex;
+        align-items: center
+        background: #005BC1
+        color: #ffffff
+        font-size: 18px
+        padding: 20px 40px 20px 19px
+        position: absolute
+        bottom: 15px
+        right: 0
+
+.robe, .compulite
+  display: none
+.visible
+  display: flex
+.tabs-item
+  color: #000
+.tabs-item-active
+  color: #005BC1
+  border-bottom: 3px solid #005BC1
+  width: 100%
+  padding-bottom: 4px

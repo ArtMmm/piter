@@ -25,4 +25,14 @@ $(document).ready(function(){
         }
     }
   });
+  $("#carousel-1").owlCarousel({
+    // autoplay: true,
+    // autoplayTimeout:5000,
+    items:1,
+    loop: true,
+    nav: true,
+    navText: [ '<img src="image/prew.png" alt="arrow">' ,
+    '<img src="image/next.png" alt="arrow">' ],
+    dots: false
+  });
 });

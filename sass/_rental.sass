@@ -1,0 +1,50 @@
+.rental
+  margin-top: 162px
+  &-block
+    display: flex
+    overflow: hidden
+    &__description
+      align-items: center
+      display: flex
+      line-height: 1.6
+    &__slider
+      width: 665px
+      height: 392px
+      padding: 30px 30px 30px 30px
+      border: 2px solid #005BC1
+      margin-top: 44px
+  & .owl-carousel
+      width: 665px
+      height: 394px
+      & .owl-item 
+        & img
+          width: 255px
+          height: 250px
+        & .slider-block
+          display: flex
+          &__descr
+            & .slide-title
+              margin-left: 20px
+            & .slide-descr
+              margin-top: 40px 
+              width: 300px
+              & li
+                margin-bottom: 17px
+                list-style: none
+                position: relative
+                &::before
+                  content: ''
+                  width: 4px
+                  height: 4px
+                  border-radius: 50%
+                  display: block
+                  background: #000
+                  position: absolute
+                  left: -20px
+                  top: 40%
+  & .owl-theme 
+      .owl-nav 
+        right: 60px
+        top: -87px
+        margin: 0
+      
