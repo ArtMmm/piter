@@ -756,10 +756,10 @@ footer .footer-privacy {
 @media (max-width: 590px) {
   header .first-screen__title {
     max-width: 250px;
-    font-size: 30px;
+    font-size: 24px;
   }
   header .first-screen__description {
-    width: 260px;
+    width: 230px;
   }
   .rental .owl-carousel .owl-item .slider-block {
     max-width: 370px;
