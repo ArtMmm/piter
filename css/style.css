@@ -287,7 +287,7 @@ header .first-screen__button a {
 }
 
 .block-item .item-robe, .block-item .item-compulite {
-  max-width: 350px;
+  width: 350px;
   height: 300px;
   border: 2px solid #005BC1;
   margin-right: 30px;
@@ -648,8 +648,14 @@ footer .footer-privacy {
   .catalog {
     margin-top: 0;
   }
+  .catalog-block {
+    margin-top: 68px;
+  }
   .rental {
     margin-top: 0;
+  }
+  .rental-block__description {
+    margin-top: 68px;
   }
   .block-news {
     -webkit-box-pack: center;
@@ -719,7 +725,7 @@ footer .footer-privacy {
 
 @media (max-width: 479px) {
   .title-heading {
-    font-size: 15px;
+    font-size: 11px;
   }
   .rental .owl-carousel .owl-item .slider-block {
     max-width: 270px;
@@ -730,8 +736,11 @@ footer .footer-privacy {
   .rental .owl-carousel .owl-item .slider-block__descr .slide-descr li {
     font-size: 12px;
   }
+  .block-news {
+    margin-top: 100px;
+  }
   .heading-news .all-news {
-    margin-top: 10px;
+    margin-top: 68px;
   }
   .block-item .item-robe, .block-item .item-compulite {
     margin-right: 0;
@@ -748,7 +757,8 @@ footer .footer-privacy {
             justify-content: center;
   }
   footer .footer-menu__link {
-    margin-bottom: 10px;
+    margin: 15px;
+    padding-top: 0;
   }
   footer .footer-info {
     line-height: 22px;
