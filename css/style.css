@@ -364,6 +364,7 @@ header .first-screen__button a {
 }
 
 .rental .owl-carousel .owl-item .slider-block {
+  margin-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
